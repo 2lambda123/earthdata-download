@@ -42,7 +42,7 @@ module.exports = defineConfig({
       use: { ...devices['desktop'] }
     }
 
-    // {
+     {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
     // },
@@ -69,7 +69,7 @@ module.exports = defineConfig({
     // },
     // {
     //   name: 'Google Chrome',
-    //   use: { ..devices['Desktop Chrome'], channel: 'chrome' },
+       use: { ..devices['Desktop Chrome'], channel: 'chrome' },
     // },
   ]
 
@@ -81,7 +81,7 @@ module.exports = defineConfig({
   // }
 })
   /* Test against branded browsers. */
-    // {
+     {
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
